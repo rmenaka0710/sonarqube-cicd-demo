@@ -1,0 +1,13 @@
+{
+  "name": "sonarqube-cicd-demo",
+  "version": "1.0.0",
+  "description": "Beginner-friendly Node.js demo for SonarQube + GitHub Actions CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
