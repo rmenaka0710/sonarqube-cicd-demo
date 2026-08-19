@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
   res.json({ message: "SonarQube CI/CD Demo is running" });
 });
 
-// Intentionally simple code for experimenting with SonarQube rules.
 function calculateDiscount(customer) {
   if (customer.type === "premium") {
     return 20;
